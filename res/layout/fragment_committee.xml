@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/cornered_box"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/homePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:padding="20dp"
+            android:src="@drawable/ieee_logo" />
+
+        <TextView
+            android:id="@+id/committeeText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:paddingLeft="15dp"
+            android:text="General Chairs\nRajesh Ingle\nRajat Moona\n\nOrganizing Chair\nD. J. Doke\nG. S. Mani\n\nAdvisory Committee\nM. Ponnavaiko\nSatish Babu\nAtul Negi\nAnil Banerjee\Anil Sahasrabudhe\nPralhad Kulkarni\nDigambar Tagare\nGajanan Kharate\nVidyasagar Potdar\nAshok Jagatia\nR. Muralidharan\nAnthony Lobo\nAbhay Phansikar\n\nOrganizing Committee\nAnil Tavildar\nAvinash Joshi\nArun Bahulkar\nBharat Choudhari\nMandar Khurjekar\nGorakhnath Ghadage\n\nTrack Chairs\nNeeran Karnik\nPradeep Sinha\nJibi Abraham\nA.D.Shaligram\nArun Bahulkar\nDigambar Tagare\nSandeep Deshmukh\n\nFinance Chairs\nAshok Gaikwad\nYogesh Nerkar\nPublicity Chairs\n\nGirish Tatke\nPradeep Chatterjee\n\nTechnical Program Chair\nDinanath Kholkar\nYogesh H. Dandawate\n\nTechnical Program Committee\nAnnapa B.\nUnmil Karadkar\nYashwant Chavan\nV.M.Wadhai\nP.J.Kulkarni\nR.C.Thool\nA.S.Hiwale\nPadmaja Joshi\nJagannath Aghav\nD.B.Kulkarni\nVilas Kharat\nAkshat Sinha\nGirish Khilari\nPriti Rege\nVivek Deshpande\nGirish Mujumdar\nArati Dixit\nShoba Diwakar\n\nWeb Chair\nSachin Shelar\nNilesh Deshmukh\nAmar Buchade\n"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</ScrollView>

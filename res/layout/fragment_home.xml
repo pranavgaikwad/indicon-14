@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="4dp" >
+
+        <ImageView
+            android:id="@+id/homePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/cornered_box"
+            android:src="@drawable/ic_indicon_home" />
+
+        <TextView
+            android:id="@+id/homeText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="fill_horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/cornered_box"
+            android:text="INDICON is annual conference conceptualized by IEEE India Council in the field of Computer Science and Engineering, Electrical Engineering, and Electronics and Communication Engineering in general. This year, INDICON 2014 is being organized by IEEE Pune Section, at YASHADA, Pune.\n\nAuthors are invited to contribute original research pepers which can be submitted electronically via the conference website. The papers accepted after the review and presented in the conference will be included in the Proceedings of IEEE INDICON 2014 in IEEE Xplore provided they meet IEEE quality standards.\n\nINDICON 2014 invites researchers to submit their original contributions on the following broad topics: \n\n1.Big Data and Data Mining\n2.Cloud and Ubiquitous Computing\n3.Emerging trends in Engineering\n4.High Performance Computing\n5.Information and Network Security\n6.Power and Energy\n7.Software and Database System\n\nPapers for both oral and poster presentations should confirm to the IEEE format and specifications. All submissions must be in English only. Authors are invited to publish full paper as PDF using the IEEE templates. Paper will be published in IEEE Xplore Digital Library."
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</ScrollView>

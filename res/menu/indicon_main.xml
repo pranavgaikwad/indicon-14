@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ieee.indicon.IndiconMainActivity" >
+
+    <item android:id="@+id/action_committee"
+        android:title="Committee"
+        app:showAsAction="never"/>
+
+</menu>

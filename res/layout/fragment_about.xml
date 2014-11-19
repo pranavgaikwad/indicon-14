@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/homePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/cornered_box"
+            android:padding="20dp"
+            android:src="@drawable/ieee_india_council" />
+
+        <TextView
+            android:id="@+id/committeeText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cornered_box"
+            android:gravity="left"
+            android:padding="10dp"
+            android:paddingLeft="15dp"
+            android:text="INDICON is annual conference conceptualized by IEEE India Council in the field of Computer Science and Engineering, Electrical Engineering, and Electronics and Communication Engineering in general. This has been a metamorphic version of Annual Convention and Exhibitions (ACE) which was the annual meeting of IEEE India Council, renamed as INDICON. First INDICON was organized by IEEE Kharagpur Section at IIT Kharagpur during 2004. Subsequent INDICON conferences were organized by IEEE Madras Section (2005), IEEE Delhi Section (2006), IEEE Bangalore Section (2007), IEEE UP Section (2008), IEEE Gujarat Section (2009), IEEE Calcutta Section (2010), IEEE Hyderabad Section (2011), IEEE Kerala Section (2012) and IEEE Bombay Section (2013). Over the past few years, INDICON has emerged as a well recognized and an eagerly anticipated event in the country because of its high quality technical sessions and the networking opportunities it provides. The 11th IEEE India Conference INDICON 2014, which is being organized by the IEEE Pune Section is expected to attract a large number of delegates from all over the country and abroad and will consist of very high quality technical sessions and tutorials."
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</ScrollView>
