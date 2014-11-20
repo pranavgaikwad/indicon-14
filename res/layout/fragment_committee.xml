@@ -29,7 +29,7 @@
             android:gravity="center_horizontal"
             android:padding="10dp"
             android:paddingLeft="15dp"
-            android:text="General Chairs\nRajesh Ingle\nRajat Moona\n\nOrganizing Chair\nD. J. Doke\nG. S. Mani\n\nAdvisory Committee\nM. Ponnavaiko\nSatish Babu\nAtul Negi\nAnil Banerjee\Anil Sahasrabudhe\nPralhad Kulkarni\nDigambar Tagare\nGajanan Kharate\nVidyasagar Potdar\nAshok Jagatia\nR. Muralidharan\nAnthony Lobo\nAbhay Phansikar\n\nOrganizing Committee\nAnil Tavildar\nAvinash Joshi\nArun Bahulkar\nBharat Choudhari\nMandar Khurjekar\nGorakhnath Ghadage\n\nTrack Chairs\nNeeran Karnik\nPradeep Sinha\nJibi Abraham\nA.D.Shaligram\nArun Bahulkar\nDigambar Tagare\nSandeep Deshmukh\n\nFinance Chairs\nAshok Gaikwad\nYogesh Nerkar\nPublicity Chairs\n\nGirish Tatke\nPradeep Chatterjee\n\nTechnical Program Chair\nDinanath Kholkar\nYogesh H. Dandawate\n\nTechnical Program Committee\nAnnapa B.\nUnmil Karadkar\nYashwant Chavan\nV.M.Wadhai\nP.J.Kulkarni\nR.C.Thool\nA.S.Hiwale\nPadmaja Joshi\nJagannath Aghav\nD.B.Kulkarni\nVilas Kharat\nAkshat Sinha\nGirish Khilari\nPriti Rege\nVivek Deshpande\nGirish Mujumdar\nArati Dixit\nShoba Diwakar\n\nWeb Chair\nSachin Shelar\nNilesh Deshmukh\nAmar Buchade\n"
+            android:text=""
             android:textSize="14sp" />
     </LinearLayout>
 

@@ -1699,7 +1699,7 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f06002b;
         public static final int action_settings=0x7f06002f;
-        public static final int address=0x7f060032;
+        public static final int address=0x7f060033;
         public static final int app_name=0x7f06002d;
         public static final int auth_client_needs_enabling_title=0x7f060001;
         public static final int auth_client_needs_installation_title=0x7f060002;
@@ -1707,7 +1707,8 @@ containing a value of this type.
         public static final int auth_client_play_services_err_notification_msg=0x7f060004;
         public static final int auth_client_requested_by_msg=0x7f060005;
         public static final int auth_client_using_bad_version_title=0x7f060000;
-        public static final int call_for_papers=0x7f060033;
+        public static final int call_for_papers=0x7f060034;
+        public static final int committee_string=0x7f060032;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -1799,11 +1800,11 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f06001e;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f060034;
+        public static final int desc_list_item_icon=0x7f060035;
         public static final int drawer_close=0x7f060031;
         public static final int drawer_open=0x7f060030;
         public static final int hello_world=0x7f06002e;
-        public static final int title_activity_committee=0x7f060035;
+        public static final int title_activity_committee=0x7f060036;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
