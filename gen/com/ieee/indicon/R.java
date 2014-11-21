@@ -1489,12 +1489,19 @@ containing a value of this type.
         public static final int ic_venue=0x7f020085;
         public static final int ieee_india_council=0x7f020086;
         public static final int ieee_logo=0x7f020087;
-        public static final int list_item_bg_normal=0x7f020088;
-        public static final int list_item_bg_pressed=0x7f020089;
-        public static final int list_selector=0x7f02008a;
-        public static final int logo_cim=0x7f02008b;
-        public static final int powered_by_google_dark=0x7f02008c;
-        public static final int powered_by_google_light=0x7f02008d;
+        public static final int ieee_pune_section=0x7f020088;
+        public static final int list_item_bg_normal=0x7f020089;
+        public static final int list_item_bg_pressed=0x7f02008a;
+        public static final int list_selector=0x7f02008b;
+        public static final int logo_cim=0x7f02008c;
+        public static final int powered_by_google_dark=0x7f02008d;
+        public static final int powered_by_google_light=0x7f02008e;
+        public static final int s1=0x7f02008f;
+        public static final int s2=0x7f020090;
+        public static final int s3=0x7f020091;
+        public static final int s4=0x7f020092;
+        public static final int s5=0x7f020093;
+        public static final int s6=0x7f020094;
     }
     public static final class id {
         public static final int action_bar=0x7f08002e;
@@ -1504,7 +1511,7 @@ containing a value of this type.
         public static final int action_bar_root=0x7f08002c;
         public static final int action_bar_subtitle=0x7f080035;
         public static final int action_bar_title=0x7f080034;
-        public static final int action_committee=0x7f08005a;
+        public static final int action_committee=0x7f08005c;
         public static final int action_context_bar=0x7f08002f;
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
@@ -1516,12 +1523,12 @@ containing a value of this type.
         public static final int buyButton=0x7f08000a;
         public static final int buy_now=0x7f08000f;
         public static final int buy_with_google=0x7f08000e;
-        public static final int callText=0x7f080055;
+        public static final int callText=0x7f080057;
         public static final int checkbox=0x7f080040;
         public static final int classic=0x7f080011;
         public static final int collapseActionView=0x7f080020;
-        public static final int committeeText=0x7f080054;
-        public static final int counter=0x7f080052;
+        public static final int committeeText=0x7f080056;
+        public static final int counter=0x7f080054;
         public static final int default_activity_button=0x7f08003a;
         public static final int dialog=0x7f080021;
         public static final int disableHome=0x7f08001b;
@@ -1532,14 +1539,14 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f080038;
         public static final int expanded_menu=0x7f08003f;
         public static final int frame_container=0x7f080050;
-        public static final int gallery=0x7f080058;
+        public static final int gallery=0x7f08005a;
         public static final int grayscale=0x7f080012;
         public static final int holo_dark=0x7f080005;
         public static final int holo_light=0x7f080006;
         public static final int home=0x7f080026;
         public static final int homeAsUp=0x7f080018;
-        public static final int homePic=0x7f080053;
-        public static final int homeText=0x7f080057;
+        public static final int homePic=0x7f080055;
+        public static final int homeText=0x7f080059;
         public static final int hybrid=0x7f080004;
         public static final int icon=0x7f08003d;
         public static final int ifRoom=0x7f08001d;
@@ -1551,7 +1558,7 @@ containing a value of this type.
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
-        public static final int myMapFragment=0x7f080059;
+        public static final int myMapFragment=0x7f08005b;
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
@@ -1576,6 +1583,8 @@ containing a value of this type.
         public static final int showCustom=0x7f08001a;
         public static final int showHome=0x7f080017;
         public static final int showTitle=0x7f080019;
+        public static final int speaker_container_image=0x7f080052;
+        public static final int speaker_info_container=0x7f080053;
         public static final int split_action_bar=0x7f080030;
         public static final int strict_sandbox=0x7f080009;
         public static final int submit_area=0x7f08004c;
@@ -1583,7 +1592,7 @@ containing a value of this type.
         public static final int terrain=0x7f080003;
         public static final int title=0x7f08003e;
         public static final int top_action_bar=0x7f080032;
-        public static final int txtLabel=0x7f080056;
+        public static final int txtLabel=0x7f080058;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080016;
         public static final int withText=0x7f08001f;
@@ -1642,16 +1651,17 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_committee=0x7f030018;
         public static final int activity_indicon_main=0x7f030019;
-        public static final int drawer_list_item=0x7f03001a;
-        public static final int fragment_about=0x7f03001b;
-        public static final int fragment_call=0x7f03001c;
-        public static final int fragment_committee=0x7f03001d;
-        public static final int fragment_contact=0x7f03001e;
-        public static final int fragment_home=0x7f03001f;
-        public static final int fragment_register=0x7f030020;
-        public static final int fragment_speakers=0x7f030021;
-        public static final int fragment_venue=0x7f030022;
-        public static final int support_simple_spinner_dropdown_item=0x7f030023;
+        public static final int container=0x7f03001a;
+        public static final int drawer_list_item=0x7f03001b;
+        public static final int fragment_about=0x7f03001c;
+        public static final int fragment_call=0x7f03001d;
+        public static final int fragment_committee=0x7f03001e;
+        public static final int fragment_contact=0x7f03001f;
+        public static final int fragment_home=0x7f030020;
+        public static final int fragment_register=0x7f030021;
+        public static final int fragment_speakers=0x7f030022;
+        public static final int fragment_venue=0x7f030023;
+        public static final int support_simple_spinner_dropdown_item=0x7f030024;
     }
     public static final class menu {
         public static final int committee=0x7f0d0000;

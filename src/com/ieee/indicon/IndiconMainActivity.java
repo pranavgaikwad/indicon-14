@@ -67,13 +67,13 @@ public class IndiconMainActivity extends Activity {
         // About Indicon	
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[1], navMenuIcons.getResourceId(1, -1)));
         //Call for papers
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
+//        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
         // Venue
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2], navMenuIcons.getResourceId(2, -1)));
         // Speakers
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1)));
         // Contact Us
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
         // Register
 //        navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
          
@@ -111,7 +111,7 @@ public class IndiconMainActivity extends Activity {
  
         if (savedInstanceState == null) {
             // on first time display view for first nav item
-            //displayView(0);
+            displayView(0);
         }
         
         mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
@@ -143,16 +143,16 @@ public class IndiconMainActivity extends Activity {
         case 1:
         	fragment = new AboutFragment();
         	break;
+//        case 2:
+//        	fragment = new CallFragment();
+//        	break;
         case 2:
-        	fragment = new CallFragment();
-        	break;
-        case 3:
             fragment = new VenueFragment();
             break;
-        case 4:
+        case 3:
             fragment = new SpeakersFragment();
             break;
-        case 5:
+        case 4:
             fragment = new ContactFragment();
             break;
 //        case 6:
